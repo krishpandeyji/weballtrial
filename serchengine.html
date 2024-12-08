@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+  
+       
+  <title></title>
+</head>
+
+<body>
+<style>
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+.d1{
+  
+    background-color: orangered;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top:0px;
+    
+  }
+  #dlast{
+  
+  background-color: orangered;
+  width: 100%;
+  height: 50px;
+position: fixed;
+
+ bottom:0px;
+  
+}
+  #n1{
+  position: absolute;
+
+ font-family: 'Salsa', cursive;
+color: white;
+  font-size: 1.5em;
+  left: 25px;
+  top: 8px;
+  
+  transform: translate(-15px,-5px);
+  }
+  #n2{
+        position: absolute;
+        top: 25px;
+    color: black;
+        right: 90px;
+        top: 11px;
+  
+  transform: translate(-10px,-5px);
+      }
+  #n3{
+        position: absolute;
+        top: 15px;
+    color: black;
+        right: 5px;
+       
+       
+  
+  transform: translate(-15px,-10px);
+      }
+     
+  #n4{
+        position: absolute;
+        top: 12.5px;
+    color: black;
+        right: 44px;
+  transform: translate(-15px,-10px);
+      }
+      #n5{
+        position: fixed;
+        bottom: -8px;
+    color: black;
+      left: 6%;
+     
+      transform: translate(-15px,-10px);
+    
+      }  
+#nd1 {
+      background-color: black;
+      position: absolute;
+      top: 75px;
+      width: 100%;
+      height: 40px;
+      border-bottom: 2px solid black;
+      font-family: 'Victor Mono', monospace;
+      border-radius: 10px;
+    }
+
+    
+    #ndn1 {
+      position:absolute;
+     
+   left: 20%;
+     
+        top: 50%;
+  
+  transform: translate(-2%,-50%);
+      color:white;
+      font-size: 20px;
+      
+      
+  }
+  #name1{
+    position: absolute;
+    top:150px;
+    left: 5px;
+    border: black solid 3px;
+    border-radius: 3px;
+   
+  }
+#link1{
+  position: absolute;
+  top:159px;
+  left:40px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+}
+#name1 #link1:hover {
+  color: white;
+}
+  #name2 {
+    position: absolute;
+    top: 150px;
+    right: 5px;
+border: black solid 3px;
+    border-radius: 3px;
+   
+   
+  }
+
+  #link2 {
+    position: absolute;
+    top: 159px;
+   right: 45px;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+  }
+  #name2 #link2:hover {
+    color: white;
+  }
+  #name3{
+    position: absolute;
+    top:350px;
+    left: 5px;
+    border: black solid 3px;
+    border-radius: 3px;
+    
+   
+   
+  }
+#link3{
+  position: absolute;
+  top:158px;
+  left:40px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+   font-size: 16px;
+   font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+}
+#name3 #link3:hover {
+  color: white;
+}
+#name4  {
+    position: absolute;
+    top:350px;
+    right: 5px;
+  
+border: black solid 3px;
+    border-radius:3px;
+   
+   
+   
+  }
+#link4{
+  position: absolute;
+  top:158px;
+  right:10px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+}
+#name4 #link4:hover {
+  color: white;
+}
+#link5{
+  position: absolute;
+  top:158px;
+  left:43px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+}
+#name5  {
+    position: absolute;
+    top:550px;
+    left: 5px;
+   border: black solid 3px;
+    border-radius: 3px;
+   
+  }
+  #name5 #link5:hover {
+    color: white;
+  }
+  #name6  {
+    position: absolute;
+    top:550px;
+    right: 5px;
+    border: black solid 3px;
+    border-radius: 3px;
+   
+   
+  }
+#link6{
+  position: absolute;
+  top:158px;
+  right:35px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+}
+#name6 #link6:hover {
+  color: white;
+}
+#link7{
+  position: absolute;
+  top:158px;
+  left:49px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+
+}
+#name7  {
+    position: absolute;
+    top:750px;
+    left: 5px;
+   border: black solid 3px;
+    border-radius: 3px;
+   
+  }
+  #name7 #link7:hover {
+    color: white;
+  }
+  #name8  {
+    position: absolute;
+    top:750px;
+    right: 5px;
+    border: black solid 3px;
+    border-radius: 3px;
+   
+   
+  }
+#link8{
+  position: absolute;
+  top:158px;
+  right:42px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+
+}
+#name8 #link8:hover {
+  color: white;
+}
+#link9{
+  position: absolute;
+  top:158px;
+  left:40px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+
+}
+#name9 {
+    position: absolute;
+    top: 950px;
+    left: 5px;
+   border: black solid 3px;
+    border-radius: 3px;
+   
+  }
+  #name9 #link9:hover {
+    color: white;
+  }
+  #name10  {
+    position: absolute;
+    top:950px;
+    right: 5px;
+    border: black solid 3px;
+    border-radius: 3px;
+   
+   
+  }
+#link10{
+  position: absolute;
+  top:158px;
+  right:15px;
+  text-decoration: none;
+  color:black;
+  font-style: bold;
+    font-size: 16px;
+font-family: 'Roboto Mono', monospace;
+border: 2px solid black;
+
+border-radius:2px;
+padding-left: 7px;
+padding-right: 7px;
+
+}
+#name10 #link10:hover {
+  color: white;
+}
+
+#web_name {
+            position:fixed;
+            bottom: 0%;
+            left: 45%;
+            transform: translateX(-50%);
+            padding: 15px;
+            width: 50%;
+            border-radius: 25px;
+            border: 2px solid #ccc;
+            font-size: 13px;
+            background-color: white;
+            outline: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: width 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #web_name:focus {
+            width: 55%;
+            border-color: #ff6600;
+            box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
+        }
+
+        #button {
+            position:fixed;
+          bottom: -17.5px;
+             right: 2.5%;
+            transform: translate(-0%,-50%);
+            padding: 12px 25px;
+            font-size: 15px;
+            border-radius: 25px;
+            background-color: white;
+            color: grey;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        #button:hover {
+            background-color: #ff3300;
+            transform: scale(1.1);
+        }
+
+        /* Smooth Transition for Inputs */
+        input[type="text"],
+        button {
+            transition: all 0.3s ease;
+        }
+
+        /* Styling for the settings icon */
+        #n3 {
+            transition: opacity 0.3s ease;
+        }
+
+        #n3:hover {
+            opacity: 0.7;
+        }
+        #ns15{
+  position: absolute;
+  top: 1160px;
+  /* left: 40px;
+  right: 40px; */
+   width: 99.5%;
+  text-decoration: none;
+  border: 2px solid navy ;
+font-family: 'Salsa', cursive;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  height: 30px;
+}
+#nsn15{
+  text-decoration: none;
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+font-family: 'Salsa', cursive;
+}
+</style>
+<script>
+  function openWebsite() {
+      // Get user input (website name)
+      var web_name = document.getElementById('web_name').value.trim().toLowerCase();
+
+      if (web_name === "") {
+          alert("Please enter a Category.");
+          return;
+      }
+
+      // Generate the URL
+      // var url = "https://www." + web_name + ".com/";
+      var url =  "https://www." + web_name + ".com/";
+     
+
+      // Open the URL in a new tab
+      window.open(url, '_blank');
+  }
+</script>
+       <div class="d1">
+         <section id="n1">
+           <h1><b>WEBALL</b></h1>
+         </section>
+         <a id="n2" href="setting.html"><span >
+          <img src="https://i.ibb.co/vzjMwnH/207-2074312-setting-icon-png.png" height="35">
+          <a id="n3" href="info.html"><span>
+            <img src="https://i.ibb.co/rwmtT0z/Screenshot-2024-11-30-234336-removebg-preview.png" height="38.5" >
+            <a id="n4" href="index.html"><span>
+              <img src="https://i.ibb.co/2cjs6kk/Screenshot-2024-11-20-114259-removebg-preview.png" height="40" >
+            </span></a>
+       </div>
+      <div id="nd1">
+        <section id="ndn1">
+          <h1><centre>SEARCH ENGINE</centre></h1>
+      </div>
+      
+      
+       <div id="name1">
+     <a href="https://www.google.com" target="_self"><img src="https://i.ibb.co/QPzhMXv/20231230-220615.jpg" height="150" ></a>
+     <a id="link1" href="https://www.google.com" target="_self">GOOGLE</a>
+   </div>
+      <div id="name2">
+     <a href="https://www.bing.com" target="_self"><img src="https://i.ibb.co/z7N3rBH/20231230-214535.jpg" height="150" ></a>
+     <a id="link2" href="https://www.bing.com" target="_self">BING</a>
+   </div>
+  <div id="name3">
+    
+<a href="https://in.yahoo.com" target="_self"><img src="https://i.ibb.co/YDg0XYv/20231230-214642.jpg" height="150"></a>
+<a id="link3" href="https://in.yahoo.com" target="_self">YAHOO</a>
+         </div>
+  <div id="name4">
+    <a href="https://www.duckduckgo.com" target="_self"><img src="https://i.ibb.co/P95r1dJ/20231230-214906.jpg" height="150"></a>
+    <a id="link4" href="https://www.duckduckgo.com" target="_self">DUCK DUCK GO</a>
+  </div>
+ <div id="name5">
+      <a href="https://brave.com" target="_self"><img src="https://i.ibb.co/1J8qX4L/20231230-214501.jpg" height="150"></a>
+      <a id="link5" href="https://brave.com" target="_self">BRAVE</a>
+    </div>
+  <div id="name6">
+    <a href="https://yandex.com" target="_self"><img src="https://i.ibb.co/kxxDJBw/20231230-215006.jpg" height="150"></a>
+    <a id="link6" href="https://yandex.com" target="_self">YANDEX</a>
+  </div>
+  <div id="name7">
+    <a href="https://search.aol.com/;_ylt=AwrKBwrJKj5nTgIAx4i7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny" target="_self"><img src="https://i.ibb.co/7JLGG2r/IMG-20241120-WA0034.jpg" height="150"></a>
+    <a id="link7" href="https://search.aol.com/;_ylt=AwrKBwrJKj5nTgIAx4i7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny" target="_self">AOL</a>
+  </div>
+  <div id="name8">
+    <a href="https://www.opera.com/browsers/opera" target="_self"><img src="https://i.ibb.co/G2mBjbX/opera.jpg" height="150"></a>
+    <a id="link8" href="https://www.opera.com/browsers/opera" target="_self">OPERA</a>
+  </div>
+  <div id="name9">
+    <a href="https://www.fotor.com/" target="_self"><img src="https://i.ibb.co/Ttq85WT/IMG-20241119-WA0001.jpg" loading="lazy" height="150"></a>
+    <a id="link9" href="https://www.fotor.com/" target="_self">FOTOR</a>
+  </div>
+  <div id="name10">
+   <a href="https://www.midjourney.com/home" target="self"><img src="https://i.ibb.co/59JF0LF/IMG-20241119-WA0008.jpg" loading="lazy" height="150"></a>
+    <a id="link10" href="https://www.midjourney.com/home" target="_self">MID JOURNEY</a>
+  </div>
+ <div id="ns15"></div>
+ <div id="dlast">
+  <a id="n5" href="#">
+  <img src="https://i.ibb.co/p000Tdh/Screenshot-2024-11-20-114339-removebg-preview.jpg" height="38.5" ></a>
+<input type="text" id="web_name" placeholder="Enter website name: (Eg: Youtube)">
+    <button onclick="openWebsite()" id="button">Go</button>
+  </div>
+</body>
+
+</html>
